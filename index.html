@@ -23,20 +23,16 @@
 
                 <form action="login.php" method="post" autocomplete="on">
 
+                    <label for="ilogin">Email</label>
                     <div class="campo">
-                        <span class="material-icons">person</span>
-
-                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
-
-                        <label for="ilogin">Login: </label>
+                        <!-- <span class="material-icons">person</span> -->
+                        <input type="email" name="login" id="ilogin" autocomplete="email" required maxlength="30" placeholder="Email@adress.com">
                     </div>
 
+                    <label for="isenha">Password</label>
                     <div class="campo">
-                        <span class="material-icons">key</span>
-
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
-
-                        <label for="isenha">Senha: </label>
+                        <!-- <span class="material-icons">key</span> -->
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="20" placeholder="Must have at least 8 characters">
                     </div>
 
                     <input type="submit" value="Login">

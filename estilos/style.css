@@ -52,30 +52,51 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario > h1 {
-    font-size: 1.35em;
+    font-size: 1.3em;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.793);
 }
 
 section#login > div#formulario > p  {
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    margin-bottom: 11px;
+    color: rgba(0, 0, 0, 0.794);
 }
 
 form label {
-    display: none;
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+    margin-left: 10px;
 }
 
-form > div.campo {
-    background-color: #526548;
-    font-size: 0.8em;
-    width: 100%; /* nao tinha necessidade pois div ja eh 100% e tem display de block */
-    display: block;
-    height: 40px;
-    border-radius: 5px;
-    margin: 20px 0px 5px 0px;
+/* div.campo > span {
+    color: white;
+    background-color: black;
+} */
 
+form > div.campo {
+    background-color: white;
+    font-size: 0.8em;
+    width: 90%; /* nao tinha necessidade pois div ja eh 100% e tem display de block */
+    display: block;
+    height: 35px;
+    border: solid 2px rgba(128, 128, 128, 0.581);
+    border-radius: 5px;
+    margin: 0.5px 0px 5px 0px;
+    margin-left: 10px;
+
+}
+
+form > div > input {
+    border: none;
+    display: block;
+    height: 30px;
+    width: 100%;
+    padding-left: 3px;
 }
 
 section#login > div#formulario {
@@ -93,7 +114,7 @@ form > input[type=submit] {
     border: none;
     border-radius: 5px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 form > input[type=submit]:hover {
@@ -105,7 +126,7 @@ form > a.botao {
     display: block;
     text-align: center;
     font-size: 0.86em;
-    color: black;
+    color: rgba(0, 0, 0, 0.574);
     width: 100%;
     height: 40px;
     margin-top: 8px;

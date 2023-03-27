@@ -8,6 +8,7 @@
     
     section#login {
         width: 90vw;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -24,13 +25,31 @@
 
     section#login > div#formulario > p {
         font-size: 1em;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     section#login > div#formulario {
         float: right;
         width: 65%;
-        padding: 10px;
+        padding: 30px;
     }
+
+    form label {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    form > div.campo {
+    margin-bottom: 20px;
+    height: 40px;
+    }
+
+    form > div > input {
+        font-size: 1.2em;
+        height: 36.5px;
+    }
+
 
 }
 
@@ -42,6 +61,7 @@
     
     section#login {
         width: 950px;    
+        height: 410px;
     }
 
     section#login > div#imagem {
@@ -57,12 +77,29 @@
 
     section#login > div#formulario > p {
         font-size: 1.2em;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     section#login > div#formulario {
-        padding: 20px;
+        padding: 30px;
         float: right;
         width: 65%;
     
     }
+
+    form label {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    form > div.campo {
+        margin-bottom: 20px;
+        height: 40px;
+        }
+    
+        form > div > input {
+            font-size: 1.2em;
+            height: 36.5px;
+        }
 }
